@@ -1,0 +1,26 @@
+# Windows-compatible requirements file
+# Use PyMySQL instead of mysqlclient to avoid C++ build tools requirement
+
+# Core Django and DRF
+Django==4.2.16
+djangorestframework==3.15.2
+django-filter==24.3.0
+django-cors-headers==4.4.0
+
+# Database - Use PyMySQL instead of mysqlclient for Windows
+PyMySQL==1.1.0
+mysqlclient==2.2.4
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+PyJWT==2.8.0
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Additional packages
+Pillow==10.3.0
+python-dateutil==2.9.0.post0
+
+# For development
+django-debug-toolbar==4.4.6
